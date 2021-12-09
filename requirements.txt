@@ -15,5 +15,5 @@ PyQtNetworkAuth==5.15.5
 PyQtPurchasing==5.15.5
 pytest==6.2.4
 six==1.16.0
-TBB==0.2
+TBB==2021.4.0
 toml==0.10.2
