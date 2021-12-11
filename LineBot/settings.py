@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'line_bot'
+    'line_bot.apps.line_botConfig'
 ]
 
 MIDDLEWARE = [
