@@ -17,8 +17,8 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url,include
 #from django.views import View
-
-from line_bot.views import callback
+from line_bot import views
+#from line_bot.views import callback
 urlpatterns = [
     path('admin/', admin.site.urls),
     url('linebot/',include('line_bot.urls')),
